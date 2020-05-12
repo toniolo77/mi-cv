@@ -1,0 +1,27 @@
+.language{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 0px;
+    border: 1px solid #0000002e;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+
+    button {
+        padding: 8px;
+        border: none;
+        background-color: #eee;
+        
+        &:hover{
+            cursor: pointer;
+            background-color: #adaaaa;
+        }
+        &.active {
+            background-color: red !important;
+        }
+    }
+
+}
+

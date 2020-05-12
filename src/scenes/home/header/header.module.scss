@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+}
+
+.perfilContainer{
+    max-height: 250px;
+    width: 20%;
+}
+
+.perfilContainer img {
+    max-height: inherit;
+    width: 100%;
+}
+
+.name{
+    width:80%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    .title{
+        font-size: 6em;
+    }
+    .subtitle{
+        font-family: 'Courgette', cursive;
+        font-size: 3em;
+    }
+}
