@@ -12,13 +12,13 @@ class Home extends Component {
     
     
     state = {
-        language: Constant.LANGUAGE_SPANISH,
-        current_content: cv_data.content_spanish
+        language: Constant.LANGUAGE_UK,
+        current_content: cv_data.content_english
     }
 
     changeLanguageHandler = (language) => {
-        if (this.state.language != language){
-            if (language==Constant.LANGUAGE_SPANISH)
+        if (this.state.language !== language){
+            if (language === Constant.LANGUAGE_SPANISH)
                 this.setState({current_content: cv_data.content_spanish, language: language});
             else
                 this.setState({current_content: cv_data.content_english, language: language});

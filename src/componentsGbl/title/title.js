@@ -8,7 +8,7 @@ const Title = (props) => {
     const colorStyle= (props.style=='white') ? styles.white : styles.black;
 
     return (
-        <Row>
+        <Row className={styles.rowTitle}>
             <Col sm={2} className={styles.iconContainer} >
                 <FontAwesomeIcon className={[styles.icon,colorStyle].join(' ')} icon={props.icon} />
             </Col>

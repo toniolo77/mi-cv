@@ -10,7 +10,7 @@ const ItemProfile = (props) => {
                 <FontAwesomeIcon  icon={props.icon} />
             </Col>
             {/* <Col sm={10}  className={[styles.title,colorStyle].join(' ')}> */}
-            <Col sm={10}>
+            <Col sm={10} className={styles.itemDescription}>
                 <span>{props.description}</span>
             </Col>
         </Row>

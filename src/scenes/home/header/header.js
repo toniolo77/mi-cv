@@ -12,7 +12,7 @@ const header = (props) => {
             </div>
             <div className={styles.name}>
                 <h1 className={styles.title}>Franco Toniolo</h1>
-                <h2 className={styles.subtitle}>Developer/DevOps</h2>
+                <h2 className={styles.subtitle}>FullStack Developer</h2>
             </div>
         </div>
     );
